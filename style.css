@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;  
+    margin: 0 20px;
+    height: 70px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 50px;
+    font-size: 17px;
+}
+
+main {
+    background-color: blue;
+    display: flex;
+    flex-direction:row;
+    margin: 20px 20px;
+    border-radius: 40px;
+}
+
+.divEsquerda {
+    background-color: green;
+    margin: 20px;
+
+    
+}
+
+.divEsquerda img {
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.divDireita {
+    background-color: yellow;
+    margin: 20px;
+}
+
+.divProjetos img {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
