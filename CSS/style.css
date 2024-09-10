@@ -1,0 +1,49 @@
+:root {
+    --padrãoBorda: 5px rgba(255, 255, 255, 0.199) solid;
+    --radioBorda: 40px;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url(./FONT/Source_Code_Pro/static/SourceCodePro-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'MinhaFonte';
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(95, 0, 0),rgb(65, 29, 29),rgb(29, 29, 29), rgb(31, 24, 63), rgb(78, 0, 122));
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(56, 56, 56, 0.199);  
+    border: var(--padrãoBorda) ;
+    border-top: none;
+    margin: 0 50px;
+    height: 70px;
+    min-width: 1550px;
+    border-radius: 0px 0px 40px 40px;
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 50px;
+    font-size: 17px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

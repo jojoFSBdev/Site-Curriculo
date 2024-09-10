@@ -1,0 +1,51 @@
+.divCentral {
+    background-color: rgba(56, 56, 56, 0.199);  
+    border: var(--padrãoBorda) ;
+    display: flex;
+    flex-direction:row;
+    margin: 20px;
+    max-width: 1400px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.divEsquerda {
+
+}
+
+.divDireita {
+    margin-left: 30px;
+}
+
+.divDireita h3 {
+    font-size: 40px;
+}
+
+.divDireita h3 b {
+    color: red;
+}
+
+.TBL_Competencias {
+    margin-top: 20px;
+}
+
+.TBL_Competencias img{
+    height: 130px;
+    width: 130px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+.fotoPerfil {
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.divProjetos img {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
