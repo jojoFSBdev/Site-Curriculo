@@ -77,17 +77,18 @@
         }
 
     </style>
+    <script src="../JS/script.js"></script>
 </head>
 <body>
     <main>
         <div class = "divLogin">
-            <h1>Login</h1>
-            <input type="email" placeholder="Digite seu Email">
-            <input type="password" placeholder="Digite sua senha">
-            <p>
-                <a href= "/HTML/esqueceuSenha.html">Esqueceu a senha?</a> <a href="/HTML/cadastrar.html">Cadastrar-se</a>
-            </p>
-            <button>Logar</button>
+            <h1>Cadastro</h1>
+            <input id = "INPT_Email" type="email" placeholder="Digite um Email">
+            <input id = "INPT_ConfirmEmail" type="email" placeholder="Confirme o Email">
+            <input id = "INPT_Senha" type="password" placeholder="Digite uma senha">
+            <input id = "INPT_ConfirmSenha" type="password" placeholder="Confirme a Senha">
+            <a href="/HTML/login.html">Possui uma conta?</a>
+            <button onclick= "Cadastrar()">Finalizar</button>
         </div>
     </main>
 </body>
