@@ -1,0 +1,16 @@
+.servicosCarrossel {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.servicosCarrossel div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.servicosCarrossel img {
+    width: 100px;
+    height: 100px;
+}

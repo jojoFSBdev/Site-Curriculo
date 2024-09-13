@@ -15,3 +15,7 @@ function Cadastrar() {
 
     console.log(email, senha, confirmEmail, confirmSenha)
 }
+
+function EfetuaLogin() {
+    window.open("../HTML/home.html")
+}
